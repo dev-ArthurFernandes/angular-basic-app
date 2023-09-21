@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HousingLocationComponent } from '../housing-location/housing-location.component';
+import { CattleCardComponent } from '../cattleCards/cattleCards.component';
 import { Cattle } from '../cattle';
 import { CattleService } from '../cattle.service';
 import { RouterLink } from '@angular/router';
@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
   standalone: true,
   imports: [
     CommonModule,
-    HousingLocationComponent,
+    CattleCardComponent,
     RouterLink
   ],
   template: `

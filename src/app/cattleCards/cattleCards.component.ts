@@ -20,9 +20,9 @@ import { RouterLink} from '@angular/router';
       <a [routerLink]="['/details', cattle.id]">Learn More</a>
     </section>
   `,
-  styleUrls: ['./housing-location.component.css']
+  styleUrls: ['./cattleCards.component.css']
 })
 
-export class HousingLocationComponent {
+export class CattleCardComponent {
   @Input() cattle!: Cattle;
 }
